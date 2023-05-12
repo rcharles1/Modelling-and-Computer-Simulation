@@ -1,0 +1,110 @@
+{UTF-8}
+********************************************************
+	.
+********************************************************~
+		<?xml version="1.0" encoding="UTF-8"?>
+		<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+		  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" \
+		fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" \
+		alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" \
+		margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" \
+		margin-bottom="5,4098">
+		    <paragraph>
+		      <text></text>
+		    </paragraph>
+		  </paragraphlayout>
+		</richtext>
+		
+	|
+
+Copper= INTEG (
+	-Milling Rate,
+		7.75e+08)
+	~	Metric tons
+	~		|
+
+Milling Rate=
+	1.85e+06
+	~	Metric tons/ Year
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 450
+	~	Year
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Year
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Year [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Year [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,100,0
+10,1,Copper,302,278,43,23,3,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,2,48,585,278,10,8,0,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,3,5,1,100,0,0,22,0,192,0,-1--1--1,,1|(399,278)|
+1,4,5,2,4,0,0,22,0,192,0,-1--1--1,,1|(520,278)|
+11,5,0,460,278,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,6,Milling Rate,460,309,58,23,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,7,0,925,289,270,170,8,15,0,0,2,0,0,0,0,0,0,0,0,0
+Copper,Graph
+///---\\\
+:L<%^E!@
+1:milling.vdfx
+4:Time
+5:Copper
+9:milling
+19:100,0
+24:0
+25:450
+26:450
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:1
+72:0
+73:0
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:0
+41:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Courier|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1
